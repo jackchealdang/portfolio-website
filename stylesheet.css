@@ -227,8 +227,8 @@ footer {
   left: 3rem;
   right: 3rem;
   top: 80px;
-  background-color: #2e30387e;
-  backdrop-filter: blur(15px);
+  background-color: #2e3038;
+  /* backdrop-filter: blur(15px); */
   border-radius: 12px;
   list-style-type: none;
   overflow: hidden;
