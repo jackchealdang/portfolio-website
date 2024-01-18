@@ -145,14 +145,18 @@ button {
 }
 
 .action_button {
-  display:block;
+  display:flex;
   color: black;
   background-color: #fbe850;
   border: none;
   font-family: Prata;
   font-size: 1.1em;
   padding: 3px 25px;
+  width:120px;
+  align-items: center;
+  height: 55px;
   cursor: pointer;
+  text-align: center;
   border-radius: 12px;
   transition: 0.3s ease-in-out;
 }
@@ -167,6 +171,7 @@ button:active{
 
 .action_button:hover {
   background-color: #ffed68;
+  scale:1.05;
 }
 
 .action_button:active{
